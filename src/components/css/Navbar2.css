@@ -1,0 +1,15 @@
+
+.Quote{
+    margin-top: 10px;
+    background-color: grey;
+    text-align: center;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px;
+    word-wrap: break-word;
+}
+.writing{
+    text-align: center;
+    font-size: 20px;
+    
+}

@@ -1,0 +1,44 @@
+.Texts{
+    background-color: gray;
+    margin: 80px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align:center;
+    border-radius: 60px;
+}
+input[type=text] {
+    background-color: antiquewhite;
+    width: 30%;
+    padding: 2px;
+    margin: 2px;
+    border: 1px solid grey;
+    border-radius: 60px;
+    resize: vertical;
+    text-align: center;
+  }
+  input[type=number]{
+    background-color: antiquewhite;
+    width: 10%;
+    padding: 2px;
+    margin: 2px;
+    border: 1px solid grey;
+    border-radius: 60px;
+    resize: vertical;
+    text-align: center;
+  }
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  input[type=submit], input[type=reset] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+  }
+  
+  

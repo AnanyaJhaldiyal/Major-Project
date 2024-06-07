@@ -1,0 +1,30 @@
+.Paragraph{
+    background-color: gray;
+    margin: 80px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align:center;
+    border-radius: 60px;
+    align-items: center;
+}
+input[type=text] {
+    background-color: antiquewhite;
+    width: 10%;
+    padding: 2px;
+    margin: 2px;
+    border: 1px solid grey;
+    border-radius: 60px;
+    resize: vertical;
+    text-align: center;
+  }
+  select {
+    background-color: antiquewhite;
+    width: 5%;
+    padding: 2px;
+    margin: 2px;
+    border: 1px solid grey;
+    border-radius: 60px;
+    resize: vertical;
+    text-align: center;
+  }
