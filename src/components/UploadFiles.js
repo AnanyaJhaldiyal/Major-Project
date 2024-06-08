@@ -13,7 +13,7 @@ const SingleFileUpload = () => {
       }
 
       const formData = new FormData();
-      formData.append("file", selectedFile);
+      formData.append("activityRawFile", selectedFile);
 
       try {
             const response = await fetch("C:\Users\HP\OneDrive - Graphic Era University\Desktop\projects\Major Project\results", {

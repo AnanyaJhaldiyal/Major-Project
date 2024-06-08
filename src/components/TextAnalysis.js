@@ -13,15 +13,15 @@ function App() {
             <label htmlFor="height">Enter your height:</label>
             <input type="number" id='height' name='height' /> 
             <select name="height" id="height">
-  <option value="cm">cm</option>
-  <option value="inch">inch</option>
-</select> <br />
+                <option value="cm">cm</option>
+                <option value="inch">inch</option>
+            </select> <br />
             <label htmlFor="weight">Enter your weight:</label>
             <input type="number" id='weight' name='weight' /> 
             <select name="w1" id="w1">
-  <option value="kgs">kgs</option>
-  <option value="lbs">lbs</option>
-</select><br />
+                <option value="kgs">kgs</option>
+                <option value="lbs">lbs</option>
+            </select><br />
             <input type="submit" name="submit" id="submit" />
             <input type="reset" name="reset" id="reset" /><br />
         </div>

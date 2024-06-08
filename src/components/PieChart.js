@@ -4,6 +4,7 @@ import CanvasJSReact from '@canvasjs/react-charts';
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 class App extends Component {
 	render() {
+		const {analysisData} = this.props
 		const options = {
             theme: "dark2", // "light1", "dark1", "dark2"
 			exportEnabled: true,
@@ -20,10 +21,10 @@ class App extends Component {
 				indexLabelFontSize: 16,
 				indexLabel: "{label} - {y}%",
 				dataPoints: [
-					{ y: 12, label: "No activity" },
-					{ y: 10, label: "Standing" },
-					{ y: 60, label: "Walking" },
-					{ y: 18, label: "Runing" },
+					{ y: (analysisData.LyingPercentage)?analysisData.LyingPercentage:0, label: "No activity" },
+					{ y: (analysisData.StandingPercentage)?analysisData.StandingPercentage:0, label: "Standing" },
+					{ y: (analysisData.WalkingPercentage)?analysisData.WalkingPercentage:0, label: "Walking" },
+					{ y: (analysisData.RunningPercentage)?analysisData.RunningPercentage:0, label: "Runing" },
 					
 				]
 			}]
